@@ -40,7 +40,7 @@ script DownloadURLsAsPDFs
         set actionBundle to |bundle|()
         set actionParameters to my |parameters|()
                 
-        set commandPath to actionBundle's pathForResource_ofType_("url2pdf", "") as text
+        set commandPath to "\"" & actionBundle's pathForResource_ofType_("url2pdf", "") as text & "\""
         
         repeat with i in input
             set command to commandPath & " --url=" & (absoluteString of i)
