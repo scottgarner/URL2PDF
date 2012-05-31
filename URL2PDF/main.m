@@ -136,13 +136,13 @@ NSMutableDictionary* parseOptions(const int argc, char **argv) {
                 }
                 break; 
                 
-            case 'a':
+            case 'n':
                 if (strcasecmp(optarg,"URL") == 0)
                     [parameters setObject:[NSNumber numberWithInt:0] forKey:@"fileNameFrom"];
                 else if (strcasecmp(optarg,"Title") == 0)
                     [parameters setObject:[NSNumber numberWithInt:1] forKey:@"fileNameFrom"];
                 else {
-                    printf("Invalid argument for --auto-filename\n");
+                    printf("Invalid argument for --autosave-name\n");
                     exit(EXIT_FAILURE);
                 }
                 break;  

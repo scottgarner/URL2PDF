@@ -41,19 +41,19 @@
 	<key>AMDescription</key>
 	<dict>
 		<key>AMDAlert</key>
-		<string>(* AMDAlert text goes here. (optional) *)</string>
+		<string> </string>
 		<key>AMDInput</key>
-		<string>(* AMDInput text to further explain the types accepted as input goes here. (optional) *)</string>
+		<string> </string>
 		<key>AMDNote</key>
-		<string>(* AMDNote text goes here. (optional) *)</string>
+		<string> </string>
 		<key>AMDOptions</key>
-		<string>(* AMDOptions text to further explain configuration options in the UI goes here. (optional) *)</string>
+		<string> </string>
 		<key>AMDRelatedActions</key>
 		<string>com.apple.Automator.DownloadInternetFile</string>
 		<key>AMDRequires</key>
-		<string>(* AMDRequires text to explain anything outside of Automator required for the action's operation, e.g. a web page open in Safari, goes here. (optional) *)</string>
+		<string> </string>
 		<key>AMDResult</key>
-		<string>(* AMDResult text to further explain the types provided as output goes here. (optional) *)</string>
+		<string> </string>
 		<key>AMDSummary</key>
 		<string>This action downloads the specified files from the Internet as PDF documents.</string>
 		<key>AMDWebsite</key>
@@ -64,7 +64,7 @@
 	<key>AMKeywords</key>
 	<array/>
 	<key>AMName</key>
-	<string>DownloadURLsAsPDFs</string>
+	<string>Download URLs as PDFs</string>
 	<key>AMProvides</key>
 	<dict>
 		<key>Container</key>
@@ -79,15 +79,15 @@
 	<key>AMWarning</key>
 	<dict>
 		<key>Action</key>
-		<string>(* Action name to be suggested to add prior to this action to make the task safer, e.g. com.apple.Automator.CopyFiles, goes here. *)</string>
+		<string> </string>
 		<key>ApplyButton</key>
-		<string>(* Button label for user to add proposed Action, e.g. Add. *)</string>
+		<string> </string>
 		<key>IgnoreButton</key>
-		<string>(* Button label for user not to add proposed Action, e.g. Don't Add. *)</string>
+		<string> </string>
 		<key>Level</key>
 		<integer>0</integer>
 		<key>Message</key>
-		<string>(* Warning message presented to user goes here. *)</string>
+		<string> </string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>

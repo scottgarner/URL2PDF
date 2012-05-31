@@ -54,9 +54,9 @@ script DownloadURLsAsPDFs
             end if
         
             if fileNameFrom of actionParameters  as integer equals 0 then
-                set command to command & " --autosave-name=Title"
-            else
                 set command to command & " --autosave-name=URL"
+            else
+                set command to command & " --autosave-name=Title"
             end if
     
             if loadImages of actionParameters as integer equals 0 then
@@ -82,6 +82,8 @@ script DownloadURLsAsPDFs
             else
                 set command to command & " --print-paginate=YES"
             end if
+
+            --log command
 
             set commandResult to do shell script command
             copy commandResult to end of output

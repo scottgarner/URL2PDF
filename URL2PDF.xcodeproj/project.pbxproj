@@ -100,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2A622871575C4E9005214A4 /* URL2PDF */ = {
+		D2A622871575C4E9005214A4 /* url2pdf */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2A622971575C4E9005214A4 /* Build configuration list for PBXNativeTarget "URL2PDF" */;
+			buildConfigurationList = D2A622971575C4E9005214A4 /* Build configuration list for PBXNativeTarget "url2pdf" */;
 			buildPhases = (
 				D2A622841575C4E9005214A4 /* Sources */,
 				D2A622851575C4E9005214A4 /* Frameworks */,
@@ -112,7 +112,7 @@
 			);
 			dependencies = (
 			);
-			name = URL2PDF;
+			name = url2pdf;
 			productName = URL2PDF;
 			productReference = D2A622881575C4E9005214A4 /* url2pdf */;
 			productType = "com.apple.product-type.tool";
@@ -138,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2A622871575C4E9005214A4 /* URL2PDF */,
+				D2A622871575C4E9005214A4 /* url2pdf */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +233,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2A622971575C4E9005214A4 /* Build configuration list for PBXNativeTarget "URL2PDF" */ = {
+		D2A622971575C4E9005214A4 /* Build configuration list for PBXNativeTarget "url2pdf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2A622981575C4E9005214A4 /* Debug */,
