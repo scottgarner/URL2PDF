@@ -12,7 +12,7 @@
 #include <getopt.h>
 
 void printUsage() {
-    printf("URL2PDF 2.0 (c) 2012 Scott Garner\n");
+    printf("URL2PDF 6.0 (c) 2012 Scott Garner\n");
     printf("------------------------------------------------------\n");
     printf("Options:\n");
     printf("  --help                        -h      Displays this message\n");

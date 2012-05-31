@@ -102,13 +102,13 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>6.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>2.0</string>
+	<string>6.0</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012 Project J38. All rights reserved.</string>
+	<string>Copyright © 2012 Scott Garner. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string>DownloadURLsAsPDFs</string>
 </dict>
