@@ -49,17 +49,18 @@
     
     // Webview
     
-    NSRect frame = NSMakeRect(0.0, 0.0, printWidth, printHeight);
+    NSRect frame = NSMakeRect(0,0,1,1);
     
     WebView *webView = [[WebView alloc] initWithFrame:frame];
     [webView setMaintainsBackForwardList:NO];	
     [webView setFrameLoadDelegate:self];
     [webView setResourceLoadDelegate:self];
+    [webView setMediaStyle:@"screen"];
     
     // Window
     
     NSWindow * window = [[NSWindow alloc]  
-                         initWithContentRect:NSMakeRect(0,0,printWidth,printHeight)                         
+                         initWithContentRect:NSMakeRect(0,0,1,1)                        
                          styleMask:NSBorderlessWindowMask                         
                          backing:NSBackingStoreNonretained defer:NO];
     [window setContentView:webView];    
