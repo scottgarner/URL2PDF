@@ -1,4 +1,4 @@
-URL2PFD and Download URLS as PDFs [Version 6.0]
+URL2PFD and Download URLS as PDFs [Version 6.2]
 ===============================================
 
 URL2PDF is a commandline utility that downloads URLs as PDFs. Included is an action for Apple's Automator called Download URLS as PDFs, which allows the user to archive a web page as a PDF document in a given workflow.
@@ -12,6 +12,11 @@ http://scott.j38.net/
 I finally gave up on trying to update the original action to work in Lion and decided to take a completely different approach. All of the heavy lifting is now handled by a commandline utility called URL2PDF, which is wrapped by an AppleScript-based Automator Action. 
 
 #Change Log
+
+2013-06-12 Version 6.2
+
+- Fix for paths with spaces
+- Page size fixes
 
 2012-05-30 Version 6.0
 

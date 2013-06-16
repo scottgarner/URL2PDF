@@ -45,7 +45,7 @@ script DownloadURLsAsPDFs
         repeat with i in input
             set command to commandPath & " --url=" & (absoluteString of i)
             
-            set command to command & " --autosave-path=" & savePath of actionParameters
+            set command to command & " --autosave-path=\"" & savePath of actionParameters & "\""
             
             if (enableJavaScript of actionParameters as integer) is equal to 0 then
                 set command to command & " --enable-javascript=NO"
@@ -83,7 +83,7 @@ script DownloadURLsAsPDFs
                 set command to command & " --print-paginate=YES"
             end if
 
-            --log command
+            log command
 
             set commandResult to do shell script command
             copy commandResult to end of output
