@@ -60,7 +60,7 @@
     // Window
     
     NSWindow * window = [[NSWindow alloc]  
-                         initWithContentRect:NSMakeRect(0,0,1,1)                        
+                         initWithContentRect:NSMakeRect(0,0,1024,768)                        
                          styleMask:NSBorderlessWindowMask                         
                          backing:NSBackingStoreNonretained defer:NO];
     [window setContentView:webView];    
